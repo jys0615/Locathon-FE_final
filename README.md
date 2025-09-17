@@ -42,7 +42,7 @@ AI를 활용해 매장의 **홍보 문구(캐치프레이즈)**를 자동으로 
 ---
 
 ## 🔗 관련 리포지토리
-- [Backend Repository](https://github.com/Locathon/BE)  
+- [Backend Repository](https://github.com/Locathon/Backend)  
 - [AI Repository](https://github.com/Locathon/AI)  
 
 ---
