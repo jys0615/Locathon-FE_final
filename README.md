@@ -1,50 +1,55 @@
-# Welcome to your Expo app 👋
+# 행:온 (Locathon Project)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📌 프로젝트 개요
+**행:온**은 로컬 상권 활성화를 목표로 한 해커톤 프로젝트입니다.  
+소상공인이 자신의 상점을 지도에 등록하고, 주민들과 소통할 수 있도록 지원하며,  
+AI를 활용해 매장의 **홍보 문구(캐치프레이즈)**를 자동으로 생성하는 기능을 제공합니다.  
 
-## Get started
+본 프로젝트는 React Native, Spring Boot, FastAPI 기반으로 구성되었으며,  
+프론트엔드, 백엔드, AI 모듈이 분리된 구조로 개발되었습니다.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🛠 기술 스택
+- **Frontend**: React Native  
+- **Backend**: Spring Boot  
+- **AI Module**: FastAPI, OpenAI API  
+- **지도 서비스**: 지도 API (예: Kakao Map / Google Map) 연동  
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## ✨ 주요 기능
+- **상점 등록 및 지도 표시**  
+  소상공인이 자신의 가게를 등록하면 지도에 표시되어 주민들이 쉽게 찾을 수 있습니다.  
 
-In the output, you'll find options to open the app in a
+- **AI 홍보 문구 생성**  
+  생성형 AI를 활용해 상점의 홍보 문구(캐치프레이즈)를 자동으로 추천합니다.  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **주민-소상공인 소통 기능**  
+  단순 정보 제공을 넘어, 지역 주민과 소상공인이 교류할 수 있는 커뮤니티적 요소를 포함합니다.  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 👩‍💻 팀 기여도
+- **Frontend (윤서 담당)**  
+  - React Native로 앱 핵심 화면 및 UI 구현  
+  - 지도 API 연동 및 AI 결과를 사용자 화면에 표시  
+- **AI 연동 (윤서 담당)**  
+  - 상점 정보 기반으로 홍보 문구를 생성하는 AI 모듈과의 연동 구현  
+- **Backend 연동 (부분)**  
+  - 지도 및 AI 기능과 Spring Boot 서버 간의 통신 일부 구현  
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 🔗 관련 리포지토리
+- [Backend Repository](https://github.com/Locathon/BE)  
+- [AI Repository](https://github.com/Locathon/AI)  
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📈 성과 및 배운 점
+- 제한된 개발 기간에도 핵심 기능(지도 + AI 연동)을 완성하여 시연 성공  
+- React Native를 처음 학습했음에도 실전 프로젝트에 적용, 기술 적응력과 실행력 입증  
+- 프론트엔드·백엔드·AI를 연계한 **모듈형 아키텍처 설계 경험** 축적  
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
